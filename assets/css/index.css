@@ -1,0 +1,30 @@
+
+section.contain-image{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+section.contain-image div.image{
+    overflow: hidden;
+    display: flex;
+    margin: 20px 10px;
+  /*  width: 340px;
+    height: 340px; */
+   
+    border-style: groove;
+    border-width: 15px;
+    border-color: gray;
+    justify-content: center;
+    position: relative;
+}
+
+ main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  
+   /* justify-content: space-around; */
+}
