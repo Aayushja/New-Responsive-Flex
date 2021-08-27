@@ -11,9 +11,8 @@ section.contain-image div.image{
     overflow: hidden;
     display: flex;
     margin: 20px 10px;
-  /*  width: 340px;
-    height: 340px; */
-   
+   width: 250px;
+    height: 250px; 
     border-style: groove;
     border-width: 15px;
     border-color: gray;
@@ -27,4 +26,61 @@ section.contain-image div.image{
     align-items: center;
   
    /* justify-content: space-around; */
+
+ }
+
+ section.contain-image.image.h3{
+position: absolute;
+z-index: -1;
 }
+
+
+
+
+
+
+
+body{
+  background-color: #F8F9FA;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    top: 10em;
+    width: 13rem;
+    padding: 0 .5em;
+    bottom: 0;
+    margin: 0;
+    background-color: white;
+    position: fixed;
+    padding-top: 2em;
+    left: 86%;
+    align-items: flex-start;
+   
+}
+
+nav li{
+    font-size: 1em;
+    padding: .5em 0em;
+    color: gray;
+    
+}
+
+
+.span{
+    
+    display: inline;
+
+    margin-left: 1em;
+    
+}
+
+
+   
+
+
+
